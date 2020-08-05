@@ -24,11 +24,9 @@ Los algoritmos probados fueron:
 3. Elastic
 4. Azure
 
-Para cada loa algoritmos 1,2 y 4 se presentan dos notebooks:
-- el primero para la visualización de la detección de una de las series de tiempo, y 
-- el donde se pasan por el algoritmo todas las series de teimpo y se calcula la producción.
+En este repositorio se presentan, para cada uno de los algoritmos, al menos dos  notebooks. Para Holt-Winters+Brutalg, Envolvente Elíptica y Azure, el codigo de los archivos enumerados como 1.1, 1.2 y 1.4, permite la visualización de la detección de anomalías para una serie de tiempo. 
+De modo distinto, el código para implementar la detección de anomalías con Elastic, se presenta dividido en los archivos 1.3.1 y 1.3.2 ya que la ingestá de datos se realizó directamente en Kibana, y posteriormente se exportaron los resultados utilizando la interfaz de cliente para Python.
 
-Para el algoritmo de Elastic, el proceso fue distinto ya que la ingesta de datos se realizó utilizando Kibana, mientras que los resultados fueron exportados utilizando la interfaz de cliente para Python.  
-
+En los archivos 2.1, 2.2 y 2.4 se presenta la implementación de la detección de anomalías para todas las series de tiempo, la estimación de la producción diaria, por gurpo de activos y el calculo del error entre la predicción de producción hecha y el dato de producción proporcionado en el archivo y_train.
 
 
