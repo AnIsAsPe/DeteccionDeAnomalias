@@ -29,4 +29,6 @@ De modo distinto, el código para implementar la detección de anomalías con El
 
 En los archivos 2.1, 2.2 y 2.4 se presenta la implementación de la detección de anomalías para todas las series de tiempo, la estimación de la producción diaria, por gurpo de activos y el cálculo del error entre la predicción de producción hecha y el dato de producción proporcionado en el archivo y_train.
 
+El archivo 2.3 por su parte presenta la integración entre los resultados obtenidos de la detección con Elastic y los datos originales, así como la estimacion de la producción y el cálculo del error.
+
 
