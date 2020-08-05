@@ -11,21 +11,22 @@ El objetivo es estimar la producción semanal de 83 activos industriales a parti
 
 Para ello se utilizaran algoritmos de detección de anomalías para series de tiempo a fin de establecer el valor de la producción diaria con la siguiente regla:
 
-0, si hay anomalías excedentes en una o más mediciones.
-Capacidad nominal diaria si no.
+-  Asignar 0, si hay anomalías excedentes en una o más mediciones.
+-  Asignar la capacidad nominal diaria en caso contrario
 
 
 Se utilizan los datos contenidos en los archivos x_train y y_train, además del archivo assets con la capacidad de producción nominal por activo.
 
 Los algoritmos probados fueron:
 
-Alisamiento Exponencial (Holt-Winters+Brutlag)
-Envolvente elíptica
-Elastic
-Azure
+1. Alisamiento Exponencial (Holt-Winters+Brutlag)
+2. Envolvente elíptica
+3. Elastic
+4. Azure
 
-Para cada uno de estos se presentan dos notebooks el primero para la visualización de la detección de una da las series de tiempo, y el segundo donde se pasa por el algoritmo cada de las mediciones de cada activo para 
-
+Para cada uno de estos se presentan dos notebooks:
+- el primero para la visualización de la detección de una da las series de tiempo, y 
+- el donde se pasan por el algoritmo todas las series de teimpo y se calcula la producción.
 
 
 
