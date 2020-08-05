@@ -1,4 +1,4 @@
-# DeteccionDeAnomalias
+# Deteccion De Anomalias en Series de Tiempo 
 
 El presente proyecto tiene por objetivo probar diferentes algoritmos de detección de anomalías en una base de datos perteneciente a Challenge Data 2020 el cual es un proyecto
 de École Normale Superieur y Collège de France a partir de la base de datos propuesta por Kayrros en el challenge "Asset production estimation".
@@ -24,11 +24,11 @@ Los algoritmos probados fueron:
 3. Elastic
 4. Azure
 
-Para cada uno de estos se presentan dos notebooks:
-- el primero para la visualización de la detección de una da las series de tiempo, y 
+Para cada loa algoritmos 1,2 y 4 se presentan dos notebooks:
+- el primero para la visualización de la detección de una de las series de tiempo, y 
 - el donde se pasan por el algoritmo todas las series de teimpo y se calcula la producción.
 
-
+Para el algoritmo de Elastic, el proceso fue distinto ya que la ingesta de datos se realizó utilizando Kibana, mientras que los resultados fueron exportados utilizando la interfaz de cliente para Python.  
 
 
 
