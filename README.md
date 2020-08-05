@@ -3,7 +3,7 @@
 El presente proyecto tiene por objetivo probar diferentes algoritmos de detección de anomalías en una base de datos perteneciente a Challenge Data 2020 el cual es un proyecto
 de École Normale Superieur y Collège de France a partir de la base de datos propuesta por Kayrros en el challenge "Asset production estimation".
 
-Los datos utilizada provienen del Data Challenge propuesto por Kayrros disponible en:
+Los datos están disponible en:
 
 https://challengedata.ens.fr/participants/challenges/39/ 
 
